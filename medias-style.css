@@ -1,0 +1,251 @@
+
+@media screen and (max-width:491px) {
+    #cont-3{
+        grid-template-rows: repeat(8,1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #sect-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin:10px 5px 10px 5px;
+        
+    }
+    
+    #sect-2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin:10px 5px 10px 5px;
+    }
+    
+    #sect-3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin:10px 5px 10px 5px;
+        
+    }
+    
+    #sect-4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin:10px 5px 10px 5px;
+        
+    }
+    
+    #sect-5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin:10px 5px 10px 5px;
+        
+    }
+    
+    #sect-6 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin:10px 5px 10px 5px;
+        
+    }
+    
+    #sect-7 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin:10px 5px 10px 5px;
+        
+    }
+    #sect-8 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin:10px 5px 10px 5px;
+    }
+    .p-cont-4 :nth-child(1) {
+        font-size: 1.15em;
+        margin: 5% 0;
+    }
+    .p-cont-4 :nth-child(2) {
+        font-size: .95em;
+        margin: 5% 0;
+        text-align: center;
+    }
+    .p-cont-4 :nth-child(3) {
+        height: 9.5em;
+        align-self: flex-end;
+    }
+    #cont-4 h2 {
+        color: #92cbee;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    #tit {
+        background: linear-gradient(260deg, rgba(34, 84, 57, 0.725), #562a13aa), url(Fonts-Img/Imagenes/pexels-emmanuel-codden-2905342.jpg);
+        opacity: 1;
+        color: #58a717a6;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-color: var(--lucas); */
+        width: 100%;
+        height: auto;
+        padding: 5em 0 5em 0;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    #tit-pr-1,
+    #tit-pr-2,
+    #tit-pr-3,
+    #tit-pr-4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+    #tit-pr-1{
+        color: #88e182;
+        font-size: 2em;
+    }
+    #tit-pr-2{
+        font-size: 1.5em;
+    }
+    #tit-pr-3{
+        font-size: 1em;
+    }
+    #tit-pr-4{
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width:1200px){
+    #nav{
+        display: none;
+    }
+    #cont-4 {
+        background: linear-gradient(45deg, rgba(46, 65, 55, 0.491), rgba(82, 53, 38, 0.599)), url(Fonts-Img/Imagenes/pexels-balaji-srinivasan-4911474.jpg);
+        opacity: 1;
+        color: #58a717a6;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #cont-4-grid{
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    #cont-4-grid-1 {
+        margin: 15px 0;
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #cont-4-grid-2 {
+        margin: 7px 0;
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #cont-4-grid-3 {
+        margin: 7px 0 ;
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .p-cont-4 p{
+        text-align: center;
+    }
+    /* -------------------------------------------------- */
+
+}
+@media screen and (max-width:1600px){
+    #cont-p-61, #cont-p-62, #cont-p-63 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        color: rgb(235, 233, 233);
+        font-size: 22px;
+    }
+    
+    #cont-p-61 p,#cont-p-62 p,#cont-p-63 p {
+        margin-top: 25px;
+        text-align: justify;
+    }
+    
+    #cont-img-61, #cont-img-62, #cont-img-63 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        /* padding: 5px; */
+        /* width: 50%; */
+    }
+    #cont-img-61 img, #cont-img-62 img, #cont-img-63 img {
+        width: 68%;
+        height: auto;
+        margin:10px auto;
+        border-radius: 5px;
+        box-shadow: 0 0 15px #0b1110;
+        transition: .3s;
+        display: block;
+        /* max-width: 100%; */
+        object-fit: cover;
+        
+    }
+    #cont-p-1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    #cont-img-1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+    }
+    #cont-p-2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    #cont-img-2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+    }
+    #cont-p-1 p,#cont-p-2 p{
+        text-align: center;
+    }
+    /* -------------------------------------- */
+}
+@media screen and (max-width:491px){
+    #cont-title-61,#cont-title-62,#cont-title-63{
+        font-size: 25px;
+    }
+    #cont-p-61, #cont-p-62, #cont-p-63 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        color: rgb(235, 233, 233);
+        font-size: 22px;
+    }
+    
+    #cont-p-61 p,#cont-p-62 p,#cont-p-63 p {
+        margin-top: 25px;
+        text-align: justify;
+    }
+    
+    #cont-img-61, #cont-img-62, #cont-img-63 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        /* padding: 5px; */
+        /* width: 50%; */
+    }
+    #cont-img-61 img, #cont-img-62 img, #cont-img-63 img {
+        width: 78%;
+        height: auto;
+        min-height: 10em;
+        margin:10px auto;
+        border-radius: 5px;
+        box-shadow: 0 0 15px #0b1110;
+        transition: .3s;
+        display: block;
+        /* max-width: 100%; */
+        object-fit: cover;
+        
+    }
+}
+
